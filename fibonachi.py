@@ -3,6 +3,9 @@ def fibonacci(n):
 
     if 0 <= n <= 1:
         return n
+    
+    # Fibonacci code
+    
 
     n_minus1, n_minus2 = 1,0
     result = None
@@ -15,4 +18,3 @@ def fibonacci(n):
 
 for i in range(40):
     print(i, fibonacci(i))
-    
