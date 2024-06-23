@@ -1,9 +1,10 @@
 def multiply(x ,y):
-    multiplication = x * y
-    return multiplication
+    result = x * y
+    return result
 
-numbers = multiply(10, 40)
-print(numbers)
 
-# this is my first defined functiion
-# it is using arguments for multiplication.
+answer = multiply(18, 3)
+
+print(answer)
+
+
