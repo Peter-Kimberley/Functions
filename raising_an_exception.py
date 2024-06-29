@@ -1,6 +1,8 @@
 # An example of an exception raise to force the program to fail.
 
-def banner_text(text, screen_width):
+def banner_text(text=" ", screen_width=80):
+    """
+    """
     
     
     if len(text) > screen_width - 4:
@@ -15,6 +17,10 @@ def banner_text(text, screen_width):
         print(output_string)
 
 
-banner_text("*", 80)
-banner_text("Hello World", 80)
-banner_text("*", 80)
+banner_text("*",40)
+banner_text("Hello World",40)
+banner_text("*",40)
+banner_text(screen_width=40)
+banner_text("*",40)
+banner_text("Hello World",40)
+banner_text("*",40)
